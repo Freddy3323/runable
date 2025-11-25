@@ -1,3 +1,32 @@
 
 <!-- saved from url=(0011)about:blank -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head><body><iframe height="0" width="0" src="https://www.googletagmanager.com/static/service_worker/5ba0/sw_iframe.html?origin=https%3A%2F%2Frunable.com" style="display: none; visibility: hidden;"></iframe></body></html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<title>OpenHomeMate — Contact</title>
+		<link rel="stylesheet" href="/call-button.css">
+		<style>
+			body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;margin:0;padding:24px}
+			.contact-card{max-width:720px;margin:40px auto;padding:20px;border-radius:8px;background:#f8faf8;border:1px solid #e6f0ea}
+			.phone-large{font-size:22px;font-weight:700;color:#074;letter-spacing:0.5px}
+			.note{color:#666;margin-top:8px}
+		</style>
+	</head>
+	<body>
+		<div class="contact-card">
+			<div class="phone-large">Call us: <a href="tel:+61468046283">0468 04 MATE</a></div>
+			<div class="note">Phone: <a href="tel:+61468046283">+61 468 046 283</a> — tap to call from mobile devices.</div>
+		</div>
+
+		<iframe height="0" width="0" src="https://www.googletagmanager.com/static/service_worker/5ba0/sw_iframe.html?origin=https%3A%2F%2Frunable.com" style="display: none; visibility: hidden;"></iframe>
+
+		<!-- Floating call button (also included in repo as call-button-snippet.html) -->
+		<a class="call-button" href="tel:+61468046283" aria-label="Call 0468 04 MATE">
+			<span class="phone-emoji">📞</span>
+			<span class="phone-text">0468 04 MATE</span>
+		</a>
+
+		<script src="/call-button.js"></script>
+	</body>
+</html>
